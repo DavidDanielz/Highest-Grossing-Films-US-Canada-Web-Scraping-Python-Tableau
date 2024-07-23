@@ -2,6 +2,8 @@
 # ![Python](https://img.shields.io/badge/python-blue?logo=python&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visual-studio-code&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?logo=Microsoft%20Excel&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-005F99?logo=Tableau&logoColor=white)
 
 ### Overview!
+
+### Step 1:
 This project aims to scrape and analyze data from Wikipedia to identify the highest-grossing films in the United States and Canada.
 
 1. Import Libraries: 'pandas' for data manipulation and 'lxml' for HTML parsing. 
@@ -26,13 +28,14 @@ highest_grossing_films = tables[0]
 print(highest_grossing_films)
 ```
 
-### Next Steps
+### Step 2:
 ### Data Cleaning and Analysis in Excel
 
 Export the scraped data to Excel.
 Clean the data by removing duplicates, handling missing values, and correcting any inconsistencies.
 Perform preliminary analysis in Excel to understand the data better.
 
+### Step 3:
 ### Creating Charts and Dashboard in Tableau
 
 Import the cleaned data from Excel into Tableau.
