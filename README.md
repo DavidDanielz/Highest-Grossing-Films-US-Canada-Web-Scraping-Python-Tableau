@@ -26,9 +26,6 @@ highest_grossing_films = tables[0]
 print(highest_grossing_films)
 ```
 
-### Results
-The highest_grossing_films DataFrame contains the list of highest-grossing films in the United States and Canada as per the Wikipedia page.
-
 ### Next Steps
 ### Data Cleaning and Analysis in Excel
 
