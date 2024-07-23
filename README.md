@@ -30,13 +30,14 @@ print(highest_grossing_films)
 The highest_grossing_films DataFrame contains the list of highest-grossing films in the United States and Canada as per the Wikipedia page.
 
 ### Next Steps
-Data Cleaning and Analysis in Excel
+## Data Cleaning and Analysis in Excel
 
-# Export the scraped data to Excel.
+Export the scraped data to Excel.
 Clean the data by removing duplicates, handling missing values, and correcting any inconsistencies.
 Perform preliminary analysis in Excel to understand the data better.
-Creating Charts and Dashboard in Tableau
 
-# Import the cleaned data from Excel into Tableau.
+## Creating Charts and Dashboard in Tableau
+
+Import the cleaned data from Excel into Tableau.
 Create various charts to visualize key metrics such as the highest-grossing films by year, genre, and director.
 Develop an interactive dashboard in Tableau to provide a comprehensive view of the data, allowing users to explore different aspects of the highest-grossing films.
