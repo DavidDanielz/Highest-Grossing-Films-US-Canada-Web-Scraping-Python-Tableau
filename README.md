@@ -31,3 +31,11 @@ print(highest_grossing_films)
 
 [![Dashboard 4](https://github.com/user-attachments/assets/b861aa7a-13c1-4319-8e4a-fd4fec759c43)](https://public.tableau.com/views/Listofhighest-grossingfilmsintheUnitedStatesandCanadacomplete/Dashboard4?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 Click the image to view the dashboard in Tableau Public
+
+### Key Skills Demonstrated
+Data Scraping: Automated data extraction from web sources using Python.
+Data Cleaning: Improved data quality through meticulous cleaning in Excel.
+Data Visualization: Created a comprehensive Tableau dashboard showcasing the analysis.
+
+### Conclusion
+This project highlights my ability to handle end-to-end data analysis, from data extraction to visualization, using Python, Excel, and Tableau. The final Tableau dashboard provides actionable insights into the highest-grossing films in the US and Canada.
