@@ -2,7 +2,10 @@
 # ![Python](https://img.shields.io/badge/python-blue?logo=python&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visual-studio-code&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?logo=Microsoft%20Excel&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-005F99?logo=Tableau&logoColor=white)
 
 ### Overview!
-This project involves scraping, cleaning, and analyzing data to identify the highest-grossing films in the United States and Canada. The final analysis and visualization are presented in a Tableau dashboard.
+This project involves scraping, cleaning, and analyzing data to identify the highest-grossing films in the United States and Canada. The final analysis and visualization are presented in a Tableau dashboard. This project analyzes the highest-grossing films in the United States and Canada, focusing on various factors such as box office earnings, genre trends, and director impact. The dataset used was compiled in July 2024.
+
+## Important Note
+Please note that the data used in this project was compiled in July 2024. The information presented reflects the state of the data at that time, and there may have been updates or changes to the dataset since then. Future analysis should consider using the most up-to-date data available.
 
 ### Step 1: Data Scraping with Python
 * Importing Libraries: Utilized pandas for data manipulation and lxml for HTML parsing.
