@@ -4,30 +4,21 @@
 ### Overview!
 This project involves scraping, cleaning, and analyzing data to identify the highest-grossing films in the United States and Canada. The final analysis and visualization are presented in a Tableau dashboard.
 
-### Step 1:
-This project aims to scrape and analyze data from Wikipedia to identify the highest-grossing films in the United States and Canada.
+### Step 1: Data Scraping with Python
+Importing Libraries: Utilized pandas for data manipulation and lxml for HTML parsing.
+URL Definition: Specified the target Wikipedia page URL.
+HTML Table Extraction: Used pd.read_html(url) to scrape tables from the Wikipedia page.
+Table Selection: Extracted and stored the relevant table containing the highest-grossing films data.
+Data Preview: Printed the DataFrame to verify the scraped data.
 
-1. Import Libraries: 'pandas' for data manipulation and 'lxml' for HTML parsing. 
-```
 import pandas as pd  # Importing pandas for data manipulation and analysis
 import lxml          # Importing lxml for HTML parsing
-```
-2. Define URL: Specify the URL of the Wikipedia page with the highest-grossing films data.
-```
+
 url = "https://en.wikipedia.org/wiki/List_of_highest-grossing_films_in_the_United_States_and_Canada"
-```
-3. Read HTML Tables: Use pd.read_html(url) to extract HTML tables from the specified URL. This function returns a list of DataFrames representing each table found on the page.
-```
 tables = pd.read_html(url)
-```
-4. Select Relevant Table: Assuming the first table (tables[0]) contains the highest-grossing films data, assign it to a variable.
-```
 highest_grossing_films = tables[0]
-```
-5. Display Results: Print the DataFrame to view the scraped data.
-```
 print(highest_grossing_films)
-```
+
 
 ### Step 2:
 ### Data Cleaning and Analysis in Excel
