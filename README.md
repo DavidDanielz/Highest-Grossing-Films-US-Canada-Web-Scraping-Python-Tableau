@@ -20,15 +20,14 @@ highest_grossing_films = tables[0]
 print(highest_grossing_films)
 ```
 
-### Step 2:
-### Data Cleaning and Analysis in Excel
+### Step 2: Data Cleaning and Analysis in Excel
+Export to Excel: Transferred the scraped data to Excel for further processing.
+Data Cleaning: Removed duplicates, handled missing values, and corrected inconsistencies to ensure data accuracy.
+Preliminary Analysis: Conducted initial analysis in Excel to explore trends and patterns.
 
-Export the scraped data to Excel.
-Clean the data by removing duplicates, handling missing values, and correcting any inconsistencies.
-Perform preliminary analysis in Excel to understand the data better.
-
-### Step 3:
-### Created Charts and Dashboard in Tableau
+### Step 3: Data Visualization and Dashboard Creation in Tableau
+Visualization Creation: Developed charts in Tableau to visualize key insights, such as box office trends, genre distribution, and director impact.
+Interactive Dashboard: Combined the charts into a cohesive Tableau dashboard to provide an interactive experience.
 
 [![Dashboard 4](https://github.com/user-attachments/assets/b861aa7a-13c1-4319-8e4a-fd4fec759c43)](https://public.tableau.com/views/Listofhighest-grossingfilmsintheUnitedStatesandCanadacomplete/Dashboard4?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 Click the image to view the dashboard in Tableau Public
