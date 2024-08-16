@@ -10,7 +10,7 @@ This project involves scraping, cleaning, and analyzing data to identify the hig
 * HTML Table Extraction: Used pd.read_html(url) to scrape tables from the Wikipedia page.
 * Table Selection: Extracted and stored the relevant table containing the highest-grossing films data.
 * Data Preview: Printed the DataFrame to verify the scraped data.
-
+```
 import pandas as pd  # Importing pandas for data manipulation and analysis
 import lxml          # Importing lxml for HTML parsing
 
@@ -18,7 +18,7 @@ url = "https://en.wikipedia.org/wiki/List_of_highest-grossing_films_in_the_Unite
 tables = pd.read_html(url)
 highest_grossing_films = tables[0]
 print(highest_grossing_films)
-
+```
 
 ### Step 2:
 ### Data Cleaning and Analysis in Excel
