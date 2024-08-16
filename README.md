@@ -36,9 +36,7 @@ Clean the data by removing duplicates, handling missing values, and correcting a
 Perform preliminary analysis in Excel to understand the data better.
 
 ### Step 3:
-### Creating Charts and Dashboard in Tableau
-
-## Tableau Dashboard
+### Created Charts and Dashboard in Tableau
 
 [![Dashboard 4](https://github.com/user-attachments/assets/b861aa7a-13c1-4319-8e4a-fd4fec759c43)](https://public.tableau.com/views/Listofhighest-grossingfilmsintheUnitedStatesandCanadacomplete/Dashboard4?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
