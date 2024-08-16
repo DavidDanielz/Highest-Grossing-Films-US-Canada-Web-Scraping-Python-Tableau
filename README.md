@@ -5,7 +5,7 @@
 This project analyzes the highest-grossing films in the United States and Canada, focusing on box office earnings, genre trends, and director impact. Data was scraped, cleaned, and analyzed, with the final insights presented in an interactive Tableau dashboard.
 
 ## Important Note
-Please note that the data used in this project was compiled in July 2024. The information presented reflects the state of the data at that time, and there may have been updates or changes to the dataset since then. Future analysis should consider using the most up-to-date data available.
+The analysis is based on data compiled in July 2024. As movie earnings and industry data are subject to change, the results and insights may differ if the data is updated. This project reflects the data's state as of the time of compilation.
 
 ### Step 1: Data Scraping with Python
 * Importing Libraries: Utilized pandas for data manipulation and lxml for HTML parsing.
