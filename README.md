@@ -17,11 +17,16 @@ This analysis was based on data compiled in July 2024. As box office earnings an
 - Scraped data from a Wikipedia page on the highest-grossing films in the United States and Canada using pd.read_html.
 - Extracted the relevant table and previewed the data for verification.
 ```
-import pandas as pd  # Importing pandas for data manipulation and analysis
-import lxml          # Importing lxml for HTML parsing
+import pandas as pd
+import lxml
 
+# Define URL
 url = "https://en.wikipedia.org/wiki/List_of_highest-grossing_films_in_the_United_States_and_Canada"
+
+# Scrape and load tables
 tables = pd.read_html(url)
+
+# Select relevant table
 highest_grossing_films = tables[0]
 print(highest_grossing_films)
 ```
