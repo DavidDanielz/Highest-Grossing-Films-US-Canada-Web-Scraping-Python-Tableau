@@ -1,11 +1,16 @@
-# List Highest Grossing Films In US And Canada
+# List of Highest Grossing Films In The United States And Canada
 # ![Python](https://img.shields.io/badge/python-blue?logo=python&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visual-studio-code&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?logo=Microsoft%20Excel&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-005F99?logo=Tableau&logoColor=white)
 
-## Overview!
-This project analyzes the highest-grossing films in the United States and Canada, focusing on box office earnings, genre trends, and director impact. Data was scraped, cleaned, and analyzed, with the final insights presented in an interactive Tableau dashboard.
+## Project Overview
+This project explores the highest-grossing films in the United States and Canada, analyzing key metrics such as box office earnings, genre trends, and the impact of directors on box office success. The project involves web scraping to extract data, cleaning and preprocessing the data, and presenting the final insights through a comprehensive Tableau dashboard.
+
+## Key Skills Demonstrated
+- Data Scraping: Automated the extraction of data from a web source using Python.
+- Data Cleaning: Refined and improved data quality by cleaning and organizing the dataset in Excel.
+- Data Visualization: Created an interactive Tableau dashboard to highlight key insights in box office trends.
 
 ## Important Note
-The analysis is based on data compiled in July 2024. As movie earnings and industry data are subject to change, the results and insights may differ if the data is updated. This project reflects the data's state as of the time of compilation.
+This analysis was based on data compiled in July 2024. As box office earnings and industry data evolve, the insights presented in this project may not reflect future updates or adjustments.
 
 ### Step 1: Data Scraping with Python
 * Importing Libraries: Utilized pandas for data manipulation and lxml for HTML parsing.
