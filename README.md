@@ -13,11 +13,9 @@ This project explores the highest-grossing films in the United States and Canada
 This analysis was based on data compiled in July 2024. As box office earnings and industry data evolve, the insights presented in this project may not reflect future updates or adjustments.
 
 ### Step 1: Data Scraping with Python
-* Importing Libraries: Utilized pandas for data manipulation and lxml for HTML parsing.
-* URL Definition: Specified the target Wikipedia page URL.
-* HTML Table Extraction: Used pd.read_html(url) to scrape tables from the Wikipedia page.
-* Table Selection: Extracted and stored the relevant table containing the highest-grossing films data.
-* Data Preview: Printed the DataFrame to verify the scraped data.
+- Imported necessary libraries, including pandas for data manipulation and lxml for HTML parsing.
+- Scraped data from a Wikipedia page on the highest-grossing films in the United States and Canada using pd.read_html.
+- Extracted the relevant table and previewed the data for verification.
 ```
 import pandas as pd  # Importing pandas for data manipulation and analysis
 import lxml          # Importing lxml for HTML parsing
